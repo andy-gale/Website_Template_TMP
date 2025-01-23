@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Gothic; /* text font style, change to liking */
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background: rgba(47, 54, 64, 0.3); /* change to liking */
+    position: fixed;
+    z-index: 1000;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active, a:hover {
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+nav #icon {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    background: black no-repeat; /* background color or can use url() */
+    background-size: cover;
+    height: calc(100vh - 80px);
+    font-family: chalk-custom;
+    color: white;
+}
+
+@font-face {
+    font-family: 'chalk-custom';
+    src: url(imported_files/KGTenThousandReasons.ttf);
+}
+
+
+@media (max-width: 1050px ) { /* mobile screen width styling */
+    
+    nav #icon {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.8); /* change to liking */
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .active {
+        display: none;
+    }
+
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    a.active, a:hover {
+        border: 2px solid white;
+        transition: none;
+        border-radius: 8px;
+    }
+
+    nav ul.show {
+        left: 0;
+    }
+
+}
+
+.active {
+    background: rgba(255,255,255,0.3);
+    display: inline-block;
+    border-radius: 8px;
+    line-height: 36px;
+}

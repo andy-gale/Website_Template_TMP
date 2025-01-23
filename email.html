@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Andrew Gale Contact Form </title>
+        <link rel="stylesheet" href="email.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+            
+            <form action="https://formsubmit.co/agalecontact@gmail.com" method="POST">
+                <div class="sender-info">
+                    <div class="form-input">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name"> Name </label>
+                    </div>
+
+                    <div class="form-input">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email"> Email </label>
+                    </div>
+                </div>
+
+                <div class="form-input">
+                    <textarea id="message" type="input" name="message" rows="10" required></textarea>
+                    <label for="message"> Message </label>
+                </div>
+
+                <div class="submit-button">
+                    <button type="submit"> Send </button>
+                </div>
+                
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://www.linkedin.com/in/andrew-gale-225b02259/"> <!-- send to your thankpage or other domain when u form submitted  -->
+                <input type="text" name="_honey" style="display: none">
+            </form>
+
+        </div>
+
+    </body>
+</html>
