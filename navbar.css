@@ -90,8 +90,7 @@ section {
 
     nav li {
         display: block;
-        margin: 50px 0;
-        line-height: 30px;
+        margin: 35px 0;
     }
 
     nav a {
@@ -102,6 +101,10 @@ section {
         border: 2px solid white;
         transition: none;
         border-radius: 8px;
+    }
+
+    p {
+        margin: 50px;
     }
 
     nav ul.show {
