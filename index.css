@@ -36,7 +36,7 @@ section.show-animate .animate {
 }
 
 .sec1 h1 {
-    text-shadow: 5px 10px 5px rgba(0, 238, 255, 0.712);
+    text-shadow: 5px 10px 5px rgba(23, 32, 23, 0.6);
 }
 
 .sec1 .animate {
@@ -49,11 +49,11 @@ section.show-animate .animate {
 
 .sec2 p {
     color: white;
-    text-shadow: 1px 3px 3px rgba(0,180,0,0.8);
+    text-shadow: 1px 3px 3px rgba(23, 32, 23, 0.6);
 }
 
 .sec2 h1 {
-    text-shadow: 5px 10px 5px rgba(0, 200, 0, 0.6);
+    text-shadow: 5px 10px 5px rgba(23, 32, 23, 0.6);
 }
 
 .sec2 .animate {
@@ -65,11 +65,11 @@ section.show-animate .animate {
 }
 
 .sec3 p {
-    color: #e0f;
+    color: rgba(23, 32, 23, 0.6);
 }
 
 .sec3 h1 {
-    text-shadow: 5px 10px 5px rgba(238, 0, 255, 0.6);
+    text-shadow: 5px 10px 5px rgba(23, 32, 23, 0.6);
 }
 
 .sec3 .animate {
@@ -81,11 +81,11 @@ section.show-animate .animate {
 }
 
 .sec4 p {
-    color: #ff0;
+    color: rgba(23, 32, 23, 0.6);
 }
 
 .sec4 h1 {
-    text-shadow: 5px 10px 5px rgba(255, 255, 0, 0.6);
+    text-shadow: 5px 10px 5px rgba(23, 32, 23, 0.6);
 }
 
 .sec4 .showRight-animate {

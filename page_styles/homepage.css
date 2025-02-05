@@ -41,9 +41,10 @@ p {
     font-size: 20px;
 }
 
-.headshot {
-    scale: 0.6;
 }
 
+.home_bg {
+    padding-top: 90px;
+    height: 700px;
+    opacity: 0.8;
 }
-
