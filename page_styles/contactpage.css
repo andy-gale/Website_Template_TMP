@@ -66,4 +66,8 @@
     .contact-icon {
         font-size: 24px;
     }
+
+    .sec4.show-animate {
+        padding: 0;
+    }
 }

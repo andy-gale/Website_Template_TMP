@@ -33,18 +33,10 @@
     margin: 0;
 }
 
-h1 {
-    font-size: 42px;
-}
-
-p {
-    font-size: 20px;
-}
-
 }
 
 .home_bg {
-    padding-top: 90px;
-    height: 700px;
+    padding-top: 80px;
+    height: 100%;
     opacity: 0.8;
 }
