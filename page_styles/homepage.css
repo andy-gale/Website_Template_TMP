@@ -23,6 +23,12 @@
     scale: 0.8;
 }
 
+.home_bg {
+    padding-top: 80px;
+    min-height: 100vh;
+    opacity: 0.8;
+}
+
 @media (max-width: 1050px ) {
 
 .homepage {
@@ -35,8 +41,4 @@
 
 }
 
-.home_bg {
-    padding-top: 80px;
-    height: 100%;
-    opacity: 0.8;
-}
+
